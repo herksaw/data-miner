@@ -162,9 +162,14 @@
             ]
         ],
         [
-            [],
-            [],
             [
+                "S1C17W00series"
+            ],
+            [
+                "The S1C17W22/W23 is a 16-bit microcontroller that features low-voltage operation from 1.2 V even though Flash memory is included. The embedded high-efficiency DC-DC converter generates the constant-voltage to drive the IC with lower power consumption than 4-bit microcontrollers. It is suitable for battery-driven applications that require an LCD display and timers."
+            ],
+            [
+                "   ",
                 "   ",
                 "    ",
                 "ST",
@@ -293,51 +298,52 @@
                 "16KB"
             ],
             [
+                "    ",
                 "ST(Status) MP(Mass Production) UD(Under Development) NP(Non Promotion)",
                 "Please contact ",
                 "your Epson representative",
                 "/products_and_drivers/semicon/information/support.html"
             ],
             [
-                "     ",
-                " /row "
+                "    ",
+                "     "
             ]
         ],
         [
             [
+                "    ",
                 "    ",
                 "16bit",
                 "     ",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/",
                 "S1C17 family",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/hw_tool.html",
-                "Hardware Development Tool",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/sw_tool.html",
-                "Software Development Tool",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/app_note.html",
                 "Application Note / Sample Program",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/mp_tool.html",
                 "MP Support Tool",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/faq.html",
-                "FAQ",
                 "     ",
                 "ST(Status) MP(Mass Production) UD(Under Development) NP(Non Promotion)",
                 "Please contact ",
                 "your Epson representative",
                 "/products_and_drivers/semicon/information/support.html",
-                "Epson's new 16-bit microcontroller features small size and low power consumption equivalent to an 8-bit microcontroller, even with the 16MB address space.",
-                " /grid12 ",
-                " /row "
+                "Epson's new 16-bit microcontroller features small size and low power consumption equivalent to an 8-bit microcontroller, even with the 16MB address space."
             ],
             [
+                "                      ",
                 "                      ",
                 "                          ",
                 "/products_and_drivers/semicon/products/micro_controller/parametric_search.html",
                 "Parametric Search \u00a0",
                 " /contentsPanelItem "
             ],
-            [],
             [
+                "Product lineup"
+            ],
+            [
+                "   ",
                 "   ",
                 "    ",
                 "\u00a0",
@@ -381,6 +387,7 @@
                 "\u00a0"
             ],
             [
+                "   ",
                 "    ",
                 "     ",
                 "      ",
@@ -402,17 +409,18 @@
                 "Technical information",
                 "       ",
                 "FAQ",
-                "/products_and_drivers/semicon/products/micro_controller/16bit/faq.html#ac01",
-                " /row "
+                "/products_and_drivers/semicon/products/micro_controller/16bit/faq.html#ac01"
             ],
             [
                 "Document download",
                 "/products_and_drivers/semicon/information/document_download/micro_controller.html#mcu"
             ],
-            [],
             [
-                "     ",
-                " /row "
+                "16-bit Microcontrollers Lineup"
+            ],
+            [
+                "    ",
+                "     "
             ],
             [
                 "16-bit microcontrollers spec tables ",
@@ -420,10 +428,17 @@
             ]
         ],
         [
-            [],
-            [],
-            [],
             [
+                "S1C17000/500 series"
+            ],
+            [
+                "This is low power consumption microcontroller that integrates ROM, RAM, remote controller circuit, wide variety of I/F and timer function."
+            ],
+            [
+                "This features low power consumption and price just like 4-bit/8-bit microcontroller. It is suitable for portable device built-in sensor system."
+            ],
+            [
+                "   ",
                 "   ",
                 "    ",
                 "ST",
@@ -542,14 +557,22 @@
                 "/products_and_drivers/semicon/products/micro_controller/pdf/s1c17589er_170907e.pdf"
             ],
             [
+                "    ",
                 "*"
             ]
         ],
         [
-            [],
-            [],
-            [],
             [
+                "S1C17100/600 series"
+            ],
+            [
+                "Integrate segment LCD driver, A/D converter and remoto controller circuit."
+            ],
+            [
+                "It is suitable for battery-driven portable device and healthcare appliance."
+            ],
+            [
+                "   ",
                 "   ",
                 "    ",
                 "ST",
@@ -676,13 +699,19 @@
                 "8KB"
             ],
             [
+                "    ",
                 "*"
             ]
         ],
         [
-            [],
-            [],
             [
+                "S1C17M00 series"
+            ],
+            [
+                "This series is an application-specific type."
+            ],
+            [
+                "   ",
                 "   ",
                 "    ",
                 "ST",
@@ -824,21 +853,28 @@
                 "4KB"
             ],
             [
+                "    ",
                 "ST(Status) MP(Mass Production) UD(Under Development) NP(Non Promotion)"
             ],
             [
-                "     ",
-                " /row "
+                "    ",
+                "     "
             ]
         ],
         [
-            [],
-            [],
-            [],
+            [
+                "S1C17700 series"
+            ],
+            [
+                "The RISC microcontroller integrates Flash ROM, RAM, dot matrix LCD driver, remote controller circuit, wide variety of I/F and timer function."
+            ],
+            [
+                "This features low power consumption just like 4-bit/8-bit microcontroller. It is suitable for battery-driven portable device with display such as sports watch, remote controller."
+            ],
             [
                 "   ",
+                "   ",
                 "    ",
-                "Status",
                 "Products",
                 "LCD Driver",
                 "Clock frequency",
@@ -915,15 +951,23 @@
                 "/products_and_drivers/semicon/products/micro_controller/pdf/c17706er_150327e.pdf"
             ],
             [
+                "    ",
                 "*",
                 "*"
             ]
         ],
         [
-            [],
-            [],
-            [],
             [
+                "S1C17800 series"
+            ],
+            [
+                "The RISC microcontroller has realized as advanced processing as 32-bit microcontroller at Max.48MHz."
+            ],
+            [
+                "It is suitable for healthcare equipment, home appliance and portable device by integrated LCD controller, USB, A/D converter, wide variety of I/F such as SPI, I2S etc."
+            ],
+            [
+                "   ",
                 "   ",
                 "    ",
                 "ST",
@@ -958,13 +1002,19 @@
                 "/products_and_drivers/semicon/products/micro_controller/pdf/c17803er_140129e.pdf"
             ],
             [
+                "    ",
                 "*"
             ]
         ],
         [
-            [],
-            [],
             [
+                "S1C17900 series"
+            ],
+            [
+                "Integrate super low power DSP, A/D converter and sensor interface. It supports a small package, it is suitable for high-density implementation."
+            ],
+            [
+                "   ",
                 "   ",
                 "    ",
                 "ST",
@@ -995,13 +1045,19 @@
                 "*"
             ],
             [
+                "    ",
                 "*"
             ]
         ],
         [
-            [],
-            [],
             [
+                "S1C17F00series & S1D14F00series"
+            ],
+            [
+                "The S1C17F00series is microcontroller featuring EPD passive panel segment driver, - and temperature detection circuit. The S1D14F00series is low power consumption driver IC with expandability of segment display capacity. It is suitable for portable device with EPD such as smart card. "
+            ],
+            [
+                "   ",
                 "   ",
                 "    ",
                 "ST",
@@ -1042,43 +1098,56 @@
                 "-"
             ],
             [
+                "    ",
                 "ST(Status) MP(Mass Production) UD(Under Development) NP(Non Promotion)"
             ],
-            []
-        ],
-        [
-            [],
             [
-                "     ",
-                " /row "
+                "Application examples"
             ]
         ],
         [
-            [],
             [
-                "     ",
-                " /row "
+                "Example of application using the S1C17803: Home appliance(Adding functions)"
+            ],
+            [
+                "    ",
+                "     "
             ]
         ],
         [
-            [],
             [
-                "     ",
-                " /row "
+                "Example of application using the S1C17602: Healthcare product"
+            ],
+            [
+                "    ",
+                "     "
             ]
         ],
         [
-            [],
             [
-                "     ",
-                " /row "
+                "Example of application using the S1C17702: Multifunctional remote controller"
+            ],
+            [
+                "    ",
+                "     "
             ]
         ],
         [
-            [],
             [
-                "     ",
-                " /row "
+                "Example of application using the S1C17F57: OTP card"
+            ],
+            [
+                "    ",
+                "     "
+            ]
+        ],
+        [
+            [
+                "Example of application using the S1C17F57+S1D14F57: Electronic tags for logistics"
+            ],
+            [
+                "    ",
+                "     "
             ],
             []
         ]
@@ -1148,14 +1217,8 @@
             ]
         ],
         [
-            [
-                "/products_and_drivers/semicon/products/micro_controller/8bit/",
-                "8bit "
-            ],
-            [
-                "/products_and_drivers/semicon/products/micro_controller/16bit/",
-                "16bit"
-            ]
+            [],
+            []
         ]
     ],
     [
@@ -1175,6 +1238,7 @@
         ],
         [
             [
+                "     ",
                 "      ",
                 "Related information",
                 "Application examples",
@@ -1193,6 +1257,7 @@
         ],
         [
             [
+                "     ",
                 "      ",
                 "Technical information",
                 "       ",
@@ -1260,14 +1325,12 @@
         ],
         [
             [
-                "/products_and_drivers/semicon/products/micro_controller/16bit/hw_tool.html",
-                "Hardware Development Tool"
+                "/products_and_drivers/semicon/products/micro_controller/16bit/hw_tool.html"
             ]
         ],
         [
             [
-                "/products_and_drivers/semicon/products/micro_controller/16bit/sw_tool.html",
-                "Software Development Tool"
+                "/products_and_drivers/semicon/products/micro_controller/16bit/sw_tool.html"
             ]
         ],
         [
@@ -1284,8 +1347,7 @@
         ],
         [
             [
-                "/products_and_drivers/semicon/products/micro_controller/16bit/faq.html",
-                "FAQ"
+                "/products_and_drivers/semicon/products/micro_controller/16bit/faq.html"
             ]
         ]
     ],
@@ -2151,34 +2213,14 @@
             [],
             [],
             [
+                "    ",
                 "  ",
                 "    ",
                 "   ",
                 "    ",
-                "Microcontrollers",
-                "/products_and_drivers/semicon/products/micro_controller/",
-                "    ",
                 "     ",
-                "Sales & Support",
-                "/products_and_drivers/semicon/information/support.html",
-                "   ",
-                "    ",
-                "     ",
-                "/products_and_drivers/semicon/products/micro_controller/",
-                "General",
-                "/products_and_drivers/semicon/products/micro_controller/4bit/",
-                "4bit ",
                 "/products_and_drivers/semicon/products/micro_controller/high4bit/",
                 "High Performance 4bit",
-                "/products_and_drivers/semicon/products/micro_controller/8bit/",
-                "8bit ",
-                "/products_and_drivers/semicon/products/micro_controller/16bit/",
-                "16bit",
-                "/products_and_drivers/semicon/products/micro_controller/32bit/",
-                "32bit ",
-                "/products_and_drivers/semicon/products/micro_controller/armcore/index.html",
-                "ARM",
-                "\u00ae",
                 "     ",
                 "    ",
                 "    ",
@@ -2187,23 +2229,18 @@
                 "/products_and_drivers/semicon/products/micro_controller/16bit/",
                 "S1C17 family",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/hw_tool.html",
-                "Hardware Development Tool",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/sw_tool.html",
-                "Software Development Tool",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/app_note.html",
                 "Application Note / Sample Program",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/mp_tool.html",
                 "MP Support Tool",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/faq.html",
-                "FAQ",
                 "     ",
                 "ST(Status) MP(Mass Production) UD(Under Development) NP(Non Promotion)",
                 "Please contact ",
                 "your Epson representative",
                 "/products_and_drivers/semicon/information/support.html",
                 "Epson's new 16-bit microcontroller features small size and low power consumption equivalent to an 8-bit microcontroller, even with the 16MB address space.",
-                " /grid12 ",
-                " /row ",
                 "                      ",
                 "                      ",
                 "                          ",
@@ -2276,13 +2313,11 @@
                 "       ",
                 "FAQ",
                 "/products_and_drivers/semicon/products/micro_controller/16bit/faq.html#ac01",
-                " /row ",
                 "Document download",
                 "/products_and_drivers/semicon/information/document_download/micro_controller.html#mcu",
                 "16-bit Microcontrollers Lineup",
                 "    ",
                 "     ",
-                " /row ",
                 "16-bit microcontrollers spec tables ",
                 "/products_and_drivers/semicon/products/micro_controller/pdf/spec_mcu_16bit.pdf",
                 "S1C17W00series",
@@ -2421,7 +2456,6 @@
                 "/products_and_drivers/semicon/information/support.html",
                 "    ",
                 "     ",
-                " /row ",
                 "S1C17000/500 series",
                 "This is low power consumption microcontroller that integrates ROM, RAM, remote controller circuit, wide variety of I/F and timer function.",
                 "This features low power consumption and price just like 4-bit/8-bit microcontroller. It is suitable for portable device built-in sensor system.",
@@ -2820,14 +2854,12 @@
                 "ST(Status) MP(Mass Production) UD(Under Development) NP(Non Promotion)",
                 "    ",
                 "     ",
-                " /row ",
                 "S1C17700 series",
                 "The RISC microcontroller integrates Flash ROM, RAM, dot matrix LCD driver, remote controller circuit, wide variety of I/F and timer function.",
                 "This features low power consumption just like 4-bit/8-bit microcontroller. It is suitable for battery-driven portable device with display such as sports watch, remote controller.",
                 "   ",
                 "   ",
                 "    ",
-                "Status",
                 "Products",
                 "LCD Driver",
                 "Clock frequency",
@@ -3023,25 +3055,18 @@
                 "Example of application using the S1C17803: Home appliance(Adding functions)",
                 "    ",
                 "     ",
-                " /row ",
                 "Example of application using the S1C17602: Healthcare product",
                 "    ",
                 "     ",
-                " /row ",
                 "Example of application using the S1C17702: Multifunctional remote controller",
                 "    ",
                 "     ",
-                " /row ",
                 "Example of application using the S1C17F57: OTP card",
                 "    ",
                 "     ",
-                " /row ",
                 "Example of application using the S1C17F57+S1D14F57: Electronic tags for logistics",
                 "    ",
-                "     ",
-                " /row ",
-                " /articleBody ",
-                " /globalContents "
+                "     "
             ],
             [],
             []
@@ -3174,7 +3199,9 @@
         ],
         [
             [],
-            []
+            [
+                "16bit Microcontroller - Products - Semicon Top - Epson"
+            ]
         ],
         [
             []
@@ -3252,7 +3279,9 @@
             ]
         ],
         [
-            [],
+            [
+                "RAM"
+            ],
             [],
             [],
             [
@@ -3260,13 +3289,22 @@
             ]
         ],
         [
-            []
+            [
+                "ST"
+            ]
         ],
         [
-            [],
-            [],
-            [],
             [
+                "Products"
+            ],
+            [
+                "LCD"
+            ],
+            [
+                "Clock frequency"
+            ],
+            [
+                "Flash",
                 "*"
             ]
         ]

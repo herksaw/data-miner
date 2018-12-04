@@ -37,7 +37,7 @@ refer_url_list = [
 ]
 
 if __name__ == "__main__":
-    index = 0
+    index = 11
 
     mdr = mdr.MDR()
 
@@ -142,22 +142,32 @@ if __name__ == "__main__":
 
                     child_list = el.iter()
 
-                    has_unique_found = False
+                    # has_unique_found = False
+
+                    # for child in child_list:
+                    #     if tree.getpath(child) in unique_el_dict:
+                    #         has_unique_found = True
+                    #         break
+
+                    # if has_unique_found:
+                    #     for child in child_list:
+                    #         if child.tag != "script" and child.text != None:                                
+                    #             # text_file.write(child.text.encode('utf-8') + "| " + "")
+                    #             col.append(str_ctrl_re.sub(' ', child.text))
+
+                    #         if child.tag == "a" and child.get("href") != None:
+                    #             # text_file.write(child.get("href").encode('utf-8') + "| " + "")
+                    #             col.append(str_ctrl_re.sub(' ', child.get("href")))
 
                     for child in child_list:
                         if tree.getpath(child) in unique_el_dict:
-                            has_unique_found = True
-                            break
-
-                    if has_unique_found:
-                        for child in child_list:
                             if child.tag != "script" and child.text != None:                                
                                 # text_file.write(child.text.encode('utf-8') + "| " + "")
                                 col.append(str_ctrl_re.sub(' ', child.text))
 
                             if child.tag == "a" and child.get("href") != None:
                                 # text_file.write(child.get("href").encode('utf-8') + "| " + "")
-                                col.append(str_ctrl_re.sub(' ', child.get("href")))
+                                col.append(str_ctrl_re.sub(' ', child.get("href")))                        
 
                     row.append(col)
 
