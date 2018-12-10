@@ -91,3 +91,6 @@ def cmp_elements(e1, e2):    # Compare if two elements are the same instance
 #     child_class = type(class_name, (instance.__class__,), {prop_name: prop})
 
 #     instance.__class__ = child_class
+
+def is_list_empty(in_list):
+    return all(map(is_list_empty, in_list)) if isinstance(in_list, list) else False

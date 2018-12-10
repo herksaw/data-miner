@@ -39,8 +39,6 @@ refer_url_list = [
 if __name__ == "__main__":
     index = 11
 
-    mdr = mdr.MDR()
-
     # tree = mdr.parse_page(url_list[index])
 
     # refer_tree = mdr.parse_page(refer_url_list[index])
@@ -62,59 +60,65 @@ if __name__ == "__main__":
 
     # candidates, doc = mdr.list_candidates(tree)
 
-    print("MDR running...")
+    threshold = 0.9
+    highest_unique_count = 0
+    highest_count_table = None
 
-    refer_r = requests.get(refer_url_list[index])
-    refer_tree = mdr.parse_page(refer_r.text.encode("utf8"), encoding="utf8")
-    
-    r = requests.get(url_list[index])
-    candidates, tree = mdr.list_candidates(r.text.encode("utf8"), encoding="utf8")
+    while True:
+        print("Running MDR with threshold = ", threshold, "...")
 
-    print("Different page running...")
+        mdrM = None
+        mdrM = mdr.MDR(threshold=threshold)
 
-    unique_el_dict = {}
+        refer_r = requests.get(refer_url_list[index])
+        refer_tree = mdrM.parse_page(refer_r.text.encode("utf8"), encoding="utf8")
+        
+        r = requests.get(url_list[index])
+        candidates, tree = mdrM.list_candidates(r.text.encode("utf8"), encoding="utf8")
 
-    for child in tree.getroot().iter():
-        has_found = False
+        print("Different page running...")
 
-        for refer_child in refer_tree.getroot().iter():
-            if utils.cmp_elements(child, refer_child):
-                has_found = True
-                break
+        unique_el_dict = {}
 
-        if not has_found:
-            # child.set("is_unique_node", "true")
-            # unique_el_list.append(child)
-            # if child.keys(len(child.keys - 1))
-            
-            # if "is_unique_node" not in child.keys():
-            #     identifier = etree.SubElement(child, "div")
-            #     identifier.set("is_unique_node","true")
+        for child in tree.getroot().iter():
+            has_found = False
 
-            #     for c in child.iterchildren():
-            #         print(c.keys())
+            for refer_child in refer_tree.getroot().iter():
+                if utils.cmp_elements(child, refer_child):
+                    has_found = True
+                    break
 
-            #     print("------------------")
+            if not has_found:
+                # child.set("is_unique_node", "true")
+                # unique_el_list.append(child)
+                # if child.keys(len(child.keys - 1))
+                
+                # if "is_unique_node" not in child.keys():
+                #     identifier = etree.SubElement(child, "div")
+                #     identifier.set("is_unique_node","true")
 
-            unique_el_dict[tree.getpath(child)] = "true"
+                #     for c in child.iterchildren():
+                #         print(c.keys())
 
-    print("Partial tree alignment running...")
+                #     print("------------------")
 
-    curr_url = url_list[index]
+                unique_el_dict[tree.getpath(child)] = "true"
 
-    file_url = re.sub('[\\/:*?"<>|]', "", curr_url)
+        print("Partial tree alignment running...")        
 
-    str_ctrl_re = re.compile(r'[\n\r\t]')
-
-    with open("output/" + file_url + ".json", "w") as json_file:
+        str_ctrl_re = re.compile(r'[\n\r\t]')
+        
         all_tables = []
+
+        row_count_list = []
+        unique_count_list = []
 
         for c in candidates:
             table = []
 
             # print(doc.getpath(c))
 
-            seed, mappings = mdr.extract(c)
+            seed, mappings = mdrM.extract(c)
 
             # print(seed)
 
@@ -133,6 +137,8 @@ if __name__ == "__main__":
 
                 # text_file.write("\n")
                 table.append(row)
+
+            unique_count = 0
             
             for mapping in mappings:
                 row = []
@@ -164,10 +170,12 @@ if __name__ == "__main__":
                             if child.tag != "script" and child.text != None:                                
                                 # text_file.write(child.text.encode('utf-8') + "| " + "")
                                 col.append(str_ctrl_re.sub(' ', child.text))
+                                unique_count += 1
 
                             if child.tag == "a" and child.get("href") != None:
                                 # text_file.write(child.get("href").encode('utf-8') + "| " + "")
                                 col.append(str_ctrl_re.sub(' ', child.get("href")))                        
+                                unique_count += 1
 
                     row.append(col)
 
@@ -176,9 +184,44 @@ if __name__ == "__main__":
 
             # text_file.write("-----------------------------")
 
+            unique_count_list.append(unique_count)
+
+            curr_row_count = 0
+
+            for row in table:
+                if not utils.is_list_empty(row):
+                    curr_row_count += 1
+
+            row_count_list.append(curr_row_count)
+
             all_tables.append(table)
 
-        json.dump(all_tables, json_file)
+        highest_index, highest_count = 0, 0
+
+        for i, row_count in enumerate(row_count_list):
+            # print(row_count, unique_count_list[i])
+            if row_count > highest_count:
+                highest_count = row_count
+                highest_index = i
+
+        print("Current highest: ", highest_count, unique_count_list[highest_index])
+
+        if unique_count_list[highest_index] > highest_unique_count:
+            highest_unique_count = unique_count_list[highest_index]
+            highest_count_table = all_tables[highest_index][:]
+        else:
+            break
+
+        threshold -= 0.1
+
+    print("Selected: ", highest_unique_count)
+
+    curr_url = url_list[index]
+
+    file_url = re.sub('[\\/:*?"<>|]', "", curr_url)
+
+    with open("output/" + file_url + ".json", "w") as json_file:
+        json.dump(highest_count_table, json_file)        
 
     # seed, mappings = mdr.extract(candidates[0])
 

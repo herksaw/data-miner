@@ -173,6 +173,9 @@ class MDR(object):
                     self.tree_sim_cache[(element[i], element[j])] = m[i, j]
                     self.tree_sim_cache[(element[j], element[i])] = m[i, j]
                     m[j, i] = m[i, j]
+
+        # print(m)
+
         return m
 
     def hcluster(self, m):
@@ -184,6 +187,8 @@ class MDR(object):
             # print(m)
             # print(len(m))
             L = sch.linkage(m, method='complete')
+            # print(L)
+
             ind = sch.fcluster(L, self.threshold, 'distance')
             return ind.tolist()
         else:

@@ -1,1274 +1,444 @@
 [
     [
         [
-            [
-                "\u00a0"
-            ],
-            [
-                "____________________________________________________________________________________________________"
-            ],
-            [
-                " Quick Adsense WordPress Plugin: http://quickadsense.com/ "
-            ],
-            [
-                " "
-            ],
-            [
-                " ",
-                "Introduction of 8051 \u00a0with short history"
-            ],
-            [
-                "The 8051 is a Harvard architecture, CISC instruction set, single chip microcontroller (\u00b5C) series which was developed by Intel in 1980 for use in embedded systems."
-            ],
-            [
-                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Intel\u2019s original MCS-51 family was developed using NMOS technology, but later it is modified with CMOS technology and referred as 80C51which consume less power than their NMOS predecessors and gives high switching speed than NMOS technology. This made them more suitable for battery-powered devices.\u00a0"
-            ],
-            [
-                " Quick Adsense WordPress Plugin: http://quickadsense.com/ "
-            ],
-            [
-                " ",
-                " content 2 middle "
-            ],
-            [
-                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Nowadays there are many variants of 8051 core which is capable of processing 8/16/32-bit at a time, Earlier family is limited to 8-bit processing only. While Intel no longer manufactures 8051 cored controller or its derivatives, enhanced binary compatible derivatives made by numerous vendors remain popular today like Atmel\u2019s AT89C51 and its derivatives, NXP\u2019s P89v51 and its derivatives, etc. Some derivatives integrate a digital signal processor (DSP). In addition to these physical devices, several companies also offer MCS-51 derivatives as IP cores for use in FPGAs or ASICs designs."
-            ],
-            [
-                "Some of the\u00a08051\u2019s derivatives\u00a0are given as follows:"
-            ],
-            [
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                "DEVICE",
-                "ON-CHIP DATA MEMORY",
-                "(bytes)",
-                "ON-CHIP PROGRAM MEMORY",
-                "(bytes)",
-                "16-BIT TIMER/COUNTER",
-                "NO. OF VECTORED INTERUPTS",
-                "FULL DUPLEX I/O",
-                " ",
-                "8031",
-                "128",
-                "None",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8032",
-                "256",
-                "none",
-                "2",
-                "6",
-                "1",
-                " ",
-                "8051",
-                "128",
-                "4k ROM",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8052",
-                "256",
-                "8k ROM",
-                "3",
-                "6",
-                "1",
-                " ",
-                "8751",
-                "128",
-                "4k EPROM",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8752",
-                "256",
-                "8k EPROM",
-                "3",
-                "6",
-                "1",
-                " ",
-                "AT89C51",
-                "128",
-                "4k Flash Memory",
-                "2",
-                "5",
-                "1",
-                " ",
-                "AT89C52",
-                "256",
-                "8k Flash memory",
-                "3",
-                "6",
-                "1",
-                " ",
-                "\u00a0"
-            ],
-            [
-                " ",
-                "Microcontroller 8051 is basic among all the MCUs and excellence for beginners.",
-                "Here we use AT89C51, in which AT mean ATMEL, C mean CMOS technology. and rest numbers indicates\u00a0family identification.\u00a0",
-                "8051 is\u00a0an 8-bit microcontroller which means that most available operations are limited to 8 bits. "
-            ],
-            [
-                "Features of 8051 microcontroller"
-            ],
-            [
-                " ",
-                "4 KB on chip program memory.",
-                "128 bytes on chip data memory(RAM).",
-                "128 user defined software flags.",
-                "8-bit data bus",
-                "16-bit address bus",
-                "32 general purpose registers each of 8 bits",
-                "16 bit timers (usually 2, but may have more, or less).",
-                "3 internal and 2 external interrupts.",
-                "Bit as well as byte addressable RAM area of 16 bytes.",
-                "Four 8-bit ports, (short models have two 8-bit ports).",
-                "16-bit program counter and data pointer.",
-                "1 Microsecond instruction cycle with 12 MHz Crystal."
-            ],
-            [
-                "\u00a0"
-            ],
-            [
-                "8051 models may also have a number of special, model-specific features, such as UARTs, ADC, OpAmps, etc\u2026"
-            ],
-            [
-                "\u00a0"
-            ],
-            [
-                " ",
-                "Description of AT89C51"
-            ],
-            [
-                " ",
-                "The AT89C51 is a low-power, high-performance CMOS 8-bit microcomputer with 4 Kbytes of Flash Programmable and Erasable Read Only Memory (EEPROM). The device is manufactured using Atmel\u2019s high density nonvolatile memory technology and is compatible with the industry standard MCS-51 instruction set and pin-out."
-            ],
-            [
-                " ",
-                "The on-chip Flash allows the program memory to be reprogrammed in-system or by a conventional nonvolatile memory programmer. By combining a versatile 8-bit CPU with Flash on a monolithic chip, the Atmel AT89C51 is a powerful microcomputer which provides a highly flexible and cost effective solution to many embedded control applications."
-            ],
-            [
-                " ",
-                "The AT89C51 provides the following standard features: 4Kbytes of Flash, 128 bytes of RAM, 32 I/O lines, two 16-bit timer/counters, a five vector two-level interrupt architecture, a full duplex serial port, on-chip oscillator and clock circuitry. In addition, the AT89C51 is designed with static memory."
-            ],
-            [
-                " ",
-                "Logic for operation down to zero frequency and supports two software selectable power saving modes. "
-            ],
-            [
-                "\u00a0"
-            ],
-            [
-                " ",
-                "Pinout of AT89C51"
-            ],
-            [
-                "\u00a0"
-            ]
+            "\u00a0"
         ],
         [
-            [
-                "\u00a0",
-                "http://www.firmcodes.com/wp-content/uploads/2014/04/8051.png"
-            ],
-            [],
-            [],
-            [
-                " "
-            ],
-            [
-                " ",
-                "Introduction of 8051 \u00a0with short history"
-            ],
-            [
-                "The 8051 is a Harvard architecture, CISC instruction set, single chip microcontroller (\u00b5C) series which was developed by Intel in 1980 for use in embedded systems."
-            ],
-            [
-                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Intel\u2019s original MCS-51 family was developed using NMOS technology, but later it is modified with CMOS technology and referred as 80C51which consume less power than their NMOS predecessors and gives high switching speed than NMOS technology. This made them more suitable for battery-powered devices.\u00a0"
-            ],
-            [],
-            [],
-            [
-                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Nowadays there are many variants of 8051 core which is capable of processing 8/16/32-bit at a time, Earlier family is limited to 8-bit processing only. While Intel no longer manufactures 8051 cored controller or its derivatives, enhanced binary compatible derivatives made by numerous vendors remain popular today like Atmel\u2019s AT89C51 and its derivatives, NXP\u2019s P89v51 and its derivatives, etc. Some derivatives integrate a digital signal processor (DSP). In addition to these physical devices, several companies also offer MCS-51 derivatives as IP cores for use in FPGAs or ASICs designs."
-            ],
-            [
-                "Some of the\u00a08051\u2019s derivatives\u00a0are given as follows:"
-            ],
-            [
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                "DEVICE",
-                "ON-CHIP DATA MEMORY",
-                "(bytes)",
-                "ON-CHIP PROGRAM MEMORY",
-                "(bytes)",
-                "16-BIT TIMER/COUNTER",
-                "NO. OF VECTORED INTERUPTS",
-                "FULL DUPLEX I/O",
-                " ",
-                "8031",
-                "128",
-                "None",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8032",
-                "256",
-                "none",
-                "2",
-                "6",
-                "1",
-                " ",
-                "8051",
-                "128",
-                "4k ROM",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8052",
-                "256",
-                "8k ROM",
-                "3",
-                "6",
-                "1",
-                " ",
-                "8751",
-                "128",
-                "4k EPROM",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8752",
-                "256",
-                "8k EPROM",
-                "3",
-                "6",
-                "1",
-                " ",
-                "AT89C51",
-                "128",
-                "4k Flash Memory",
-                "2",
-                "5",
-                "1",
-                " ",
-                "AT89C52",
-                "256",
-                "8k Flash memory",
-                "3",
-                "6",
-                "1",
-                " "
-            ],
-            [
-                " ",
-                "Microcontroller 8051 is basic among all the MCUs and excellence for beginners.",
-                "Here we use AT89C51, in which AT mean ATMEL, C mean CMOS technology. and rest numbers indicates\u00a0family identification.\u00a0",
-                "8051 is\u00a0an 8-bit microcontroller which means that most available operations are limited to 8 bits. "
-            ],
-            [
-                "Features of 8051 microcontroller"
-            ],
-            [
-                " ",
-                "4 KB on chip program memory.",
-                "128 bytes on chip data memory(RAM).",
-                "128 user defined software flags.",
-                "8-bit data bus",
-                "16-bit address bus",
-                "32 general purpose registers each of 8 bits",
-                "16 bit timers (usually 2, but may have more, or less).",
-                "3 internal and 2 external interrupts.",
-                "Bit as well as byte addressable RAM area of 16 bytes.",
-                "Four 8-bit ports, (short models have two 8-bit ports).",
-                "16-bit program counter and data pointer.",
-                "1 Microsecond instruction cycle with 12 MHz Crystal."
-            ],
-            [],
-            [
-                "8051 models may also have a number of special, model-specific features, such as UARTs, ADC, OpAmps, etc\u2026"
-            ],
-            [],
-            [
-                " ",
-                "Description of AT89C51"
-            ],
-            [
-                " ",
-                "The AT89C51 is a low-power, high-performance CMOS 8-bit microcomputer with 4 Kbytes of Flash Programmable and Erasable Read Only Memory (EEPROM). The device is manufactured using Atmel\u2019s high density nonvolatile memory technology and is compatible with the industry standard MCS-51 instruction set and pin-out."
-            ],
-            [
-                " ",
-                "The on-chip Flash allows the program memory to be reprogrammed in-system or by a conventional nonvolatile memory programmer. By combining a versatile 8-bit CPU with Flash on a monolithic chip, the Atmel AT89C51 is a powerful microcomputer which provides a highly flexible and cost effective solution to many embedded control applications."
-            ],
-            [
-                " ",
-                "The AT89C51 provides the following standard features: 4Kbytes of Flash, 128 bytes of RAM, 32 I/O lines, two 16-bit timer/counters, a five vector two-level interrupt architecture, a full duplex serial port, on-chip oscillator and clock circuitry. In addition, the AT89C51 is designed with static memory."
-            ],
-            [
-                " ",
-                "Logic for operation down to zero frequency and supports two software selectable power saving modes. "
-            ],
-            [],
-            [
-                " ",
-                "Pinout of AT89C51"
-            ],
-            [
-                "\u00a0",
-                "http://www.firmcodes.com/wp-content/uploads/2014/04/Untitled1.jpg"
-            ]
+            "____________________________________________________________________________________________________"
         ],
         [
-            [
-                "Pins 1-8:"
-            ]
+            " Quick Adsense WordPress Plugin: http://quickadsense.com/ "
         ],
         [
-            [
-                "Pin 9"
-            ]
+            " "
         ],
         [
-            [
-                "Pins10-17:"
-            ]
+            " ",
+            "Introduction of 8051 \u00a0with short history"
         ],
         [
-            [
-                "Pin 10:"
-            ]
+            "The 8051 is a Harvard architecture, CISC instruction set, single chip microcontroller (\u00b5C) series which was developed by Intel in 1980 for use in embedded systems."
         ],
         [
-            [
-                "Pin 11:"
-            ]
+            "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Intel\u2019s original MCS-51 family was developed using NMOS technology, but later it is modified with CMOS technology and referred as 80C51which consume less power than their NMOS predecessors and gives high switching speed than NMOS technology. This made them more suitable for battery-powered devices.\u00a0"
         ],
         [
-            [
-                "Pin 12:"
-            ]
+            " Quick Adsense WordPress Plugin: http://quickadsense.com/ "
         ],
         [
-            [
-                "Pin 13:"
-            ]
+            " ",
+            " content 2 middle "
         ],
         [
-            [
-                "Pin 14:"
-            ]
+            "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Nowadays there are many variants of 8051 core which is capable of processing 8/16/32-bit at a time, Earlier family is limited to 8-bit processing only. While Intel no longer manufactures 8051 cored controller or its derivatives, enhanced binary compatible derivatives made by numerous vendors remain popular today like Atmel\u2019s AT89C51 and its derivatives, NXP\u2019s P89v51 and its derivatives, etc. Some derivatives integrate a digital signal processor (DSP). In addition to these physical devices, several companies also offer MCS-51 derivatives as IP cores for use in FPGAs or ASICs designs."
         ],
         [
-            [
-                "Pin 15:"
-            ]
+            "Some of the\u00a08051\u2019s derivatives\u00a0are given as follows:"
         ],
         [
-            [
-                "Pin 16:"
-            ]
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            "DEVICE",
+            "ON-CHIP DATA MEMORY",
+            "(bytes)",
+            "ON-CHIP PROGRAM MEMORY",
+            "(bytes)",
+            "16-BIT TIMER/COUNTER",
+            "NO. OF VECTORED INTERUPTS",
+            "FULL DUPLEX I/O",
+            " ",
+            "8031",
+            "128",
+            "None",
+            "2",
+            "5",
+            "1",
+            " ",
+            "8032",
+            "256",
+            "none",
+            "2",
+            "6",
+            "1",
+            " ",
+            "8051",
+            "128",
+            "4k ROM",
+            "2",
+            "5",
+            "1",
+            " ",
+            "8052",
+            "256",
+            "8k ROM",
+            "3",
+            "6",
+            "1",
+            " ",
+            "8751",
+            "128",
+            "4k EPROM",
+            "2",
+            "5",
+            "1",
+            " ",
+            "8752",
+            "256",
+            "8k EPROM",
+            "3",
+            "6",
+            "1",
+            " ",
+            "AT89C51",
+            "128",
+            "4k Flash Memory",
+            "2",
+            "5",
+            "1",
+            " ",
+            "AT89C52",
+            "256",
+            "8k Flash memory",
+            "3",
+            "6",
+            "1",
+            " ",
+            "\u00a0"
         ],
         [
-            [
-                "Pin 17:"
-            ]
+            " ",
+            "Microcontroller 8051 is basic among all the MCUs and excellence for beginners.",
+            "Here we use AT89C51, in which AT mean ATMEL, C mean CMOS technology. and rest numbers indicates\u00a0family identification.\u00a0",
+            "8051 is\u00a0an 8-bit microcontroller which means that most available operations are limited to 8 bits. "
         ],
         [
-            [
-                "Pin 18, 19:"
-            ]
+            "Features of 8051 microcontroller"
         ],
         [
-            [
-                "Pin 20:"
-            ]
+            " ",
+            "4 KB on chip program memory.",
+            "128 bytes on chip data memory(RAM).",
+            "128 user defined software flags.",
+            "8-bit data bus",
+            "16-bit address bus",
+            "32 general purpose registers each of 8 bits",
+            "16 bit timers (usually 2, but may have more, or less).",
+            "3 internal and 2 external interrupts.",
+            "Bit as well as byte addressable RAM area of 16 bytes.",
+            "Four 8-bit ports, (short models have two 8-bit ports).",
+            "16-bit program counter and data pointer.",
+            "1 Microsecond instruction cycle with 12 MHz Crystal."
         ],
         [
-            [
-                "Pin 21-28:"
-            ]
+            "\u00a0"
         ],
         [
-            [
-                "Pin 29:"
-            ]
+            "8051 models may also have a number of special, model-specific features, such as UARTs, ADC, OpAmps, etc\u2026"
         ],
         [
-            [
-                "Pin 30:"
-            ]
+            "\u00a0"
         ],
         [
-            [
-                "Pin 31:"
-            ]
+            " ",
+            "Description of AT89C51"
         ],
         [
-            [
-                "Pin 32-39:"
-            ]
+            " ",
+            "The AT89C51 is a low-power, high-performance CMOS 8-bit microcomputer with 4 Kbytes of Flash Programmable and Erasable Read Only Memory (EEPROM). The device is manufactured using Atmel\u2019s high density nonvolatile memory technology and is compatible with the industry standard MCS-51 instruction set and pin-out."
         ],
         [
-            [
-                "Pin 40:"
-            ]
+            " ",
+            "The on-chip Flash allows the program memory to be reprogrammed in-system or by a conventional nonvolatile memory programmer. By combining a versatile 8-bit CPU with Flash on a monolithic chip, the Atmel AT89C51 is a powerful microcomputer which provides a highly flexible and cost effective solution to many embedded control applications."
         ],
         [
-            [
-                "\u00a0"
-            ],
-            [],
-            [],
-            [],
-            []
+            " ",
+            "The AT89C51 provides the following standard features: 4Kbytes of Flash, 128 bytes of RAM, 32 I/O lines, two 16-bit timer/counters, a five vector two-level interrupt architecture, a full duplex serial port, on-chip oscillator and clock circuitry. In addition, the AT89C51 is designed with static memory."
+        ],
+        [
+            " ",
+            "Logic for operation down to zero frequency and supports two software selectable power saving modes. "
+        ],
+        [
+            "\u00a0"
+        ],
+        [
+            " ",
+            "Pinout of AT89C51"
+        ],
+        [
+            "\u00a0"
         ]
     ],
     [
         [
-            [],
-            [
-                " Shareaholic Content Tags End "
-            ],
-            [],
-            [
-                " img.wp-smiley, img.emoji {  display: inline !important;  border: none !important;  box-shadow: none !important;  height: 1em !important;  width: 1em !important;  margin: 0 .07em !important;  vertical-align: -0.1em !important;  background: none !important;  padding: 0 !important; } "
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [
-                "  .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover, .navbar-nav .active > .nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show > .nav-link, .navbar-nav li.menu-item.current-menu-item > a, .navbar-nav li.menu-item.current-menu-parent > a, .navbar-nav li.menu-item.current-menu-ancestor > a, .navbar-nav li a:hover, .navbar-nav li:hover > a, .navbar-nav li:hover, .social-media-links a:hover { color: #007209; } .thumbnail-post:hover img { -webkit-transform: scale(1.1,1.1); -ms-transform: scale(1.1,1.1); transform: scale(1.1,1.1); } .thumbnail-post:hover .mask { opacity: 1; } .thumbnail-post:hover .icon { opacity: 1; top: 50%; margin-top: -25px; } .content { background-color: #ffffff; } .content { padding-top: 2rem; padding-bottom: 0rem; } .navbar-nav .dropdown-menu, .navbar-nav .dropdown-item:focus, .navbar-nav .dropdown-item:hover { background: #856868; } .menu-header, .sticky-header { background: #856868; background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #856868 ), to( #795c5c )); background: -o-linear-gradient(top, ##856868 50%, #795c5c 100%); background: linear-gradient(to bottom, #856868 50%, #795c5c 100%); border-color: #795c5c; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .2) inset, 0 0 2px rgba(255, 255, 255, .2) inset, 0 0 10px rgba(0, 0, 0, .1) inset, 0 1px 2px rgba(0, 0, 0, .1); box-shadow: 0 1px 0 rgba(255, 255, 255, .2) inset, 0 0 2px rgba(255, 255, 255, .2) inset, 0 0 10px rgba(0, 0, 0, .1) inset, 0 1px 2px rgba(0, 0, 0, .1); text-shadow: 0 1px 0 rgba(0, 0, 0, .8); } .header-v1 .header-search .form-control:focus, .sticky-header .header-search .form-control:focus { background: #795c5c; } .header-pattern { background: #ffffff; } .header-search .form-control, .header-search .form-control:focus, .header-search .form-control::placeholder { color: #000000; } body { font-size: 1rem; font-family: Roboto; font-weight: 300; color: #212529; } #website-title, #website-title a { font-size: 39px; font-family: Roboto; } #tagline { font-size: 13px; font-family: Roboto; } .post-title, .post-title a { font-size: 28px; font-family: Roboto; } .post-content { font-size: 16px; font-family: Roboto; } body{ color:; } #sticky-title { font-size: 25px; font-family: Roboto; font-weight: 400; color: #0f0f0f; } .navbar-nav .nav-link, .navbar-nav .dropdown-item, .navbar-nav .dropdown-menu, .menu-header, .header-wrapper .header-search, .sticky-header, .navbar-toggler { font-size: 14px; font-family: Roboto; font-weight: 700; color: #000000; } .widget-title, .widget-title a.rsswidget { font-size: 19px; font-family: Roboto; } .widget-content, .aside, .aside a { font-size: 13px; font-family: Roboto; }.widget-content, .widget-content a, .widget-content .tab-holder .news-list li .post-holder a, .widget-content .tab-holder .news-list li .post-holder .meta{ color:; } h1 { font-size: 46px; font-family: Roboto; color: #333333; } h2 { font-size: 40px; font-family: Roboto; color: #000000; } h3 { font-size: 34px; font-family: Roboto; } h4 { font-size: 27px; font-family: Roboto; } h5 { font-size: 20px; font-family: Roboto; } h6 { font-size: 14px; font-family: Roboto; } #copyright, #copyright a { font-size: .7rem; font-family: Roboto; font-weight: 300; color: #999999; } #backtotop { right: 2rem; } .widget-content { padding: 30px; } a, .page-link, .page-link:hover, code, .widget_calendar tbody a, .page-numbers.current { color: #7a9cad; } .breadcrumb-item:last-child, .breadcrumb-item+.breadcrumb-item::before, .widget a, .post-meta, .post-meta a, .navigation a, .post-content .number-pagination a:link, #wp-calendar td, .no-comment, .comment-meta, .comment-meta a, blockquote, .price del { color: #999999; } a:hover { color: #8eb0c1; } .header { padding-top: 0; padding-bottom: 0; } .header.container { padding-left: 0; padding-right: 0; } .navbar-nav > li { padding: 0 0px; } .social-media-links a { color: #999999; } .social-media-links .icon { height: normal; width: normal; } .header-block { background-color: #66b8d6; background: -o-radial-gradient(circle, #66b8d6, #57a9c7); background: radial-gradient(circle, #66b8d6, #57a9c7); background-repeat: no-repeat; } .btn, a.btn, button, .button, .widget .button, input#submit, input[type=submit], .post-content a.btn, .carousel-control-button, .woocommerce .button { background: #0bb697; background-image: -webkit-gradient( linear, left bottom, left top, from(#0bb697), to(#0bb697) ); background-image: -o-linear-gradient( bottom, #0bb697, #0bb697 ); background-image: linear-gradient( to top, #0bb697, #0bb697 ); color: #f4f4f4; text-shadow: none; border-color: #0bb697; border-radius: .3em; border-width: 1pxpx; border-style: solid; -webkit-box-shadow: 0 2px 0 #1d6e72; box-shadow: 0 2px 0 #1d6e72; } .btn:hover, a.btn:hover, button:hover, .button:hover, .widget .button:hover, input#submit:hover, input[type=submit]:hover, .carousel-control-button:hover { color: #ffffff; border-color: #313a43; background: #313a43; background-image: -webkit-gradient( linear, left bottom, left top, from( #313a43 ), to( #313a43 ) ); background-image: -o-linear-gradient( bottom, #313a43, #313a43 ); background-image: linear-gradient( to top, #313a43, #313a43 ); -webkit-box-shadow: 0 2px 0 #313a43; box-shadow: 0 2px 0 #313a43; border-width: 1pxpx; border-style: solid; } input[type=text], input[type=email], input[type=url], input[type=password], input[type=file], input[type=tel], textarea, select, .form-control, .form-control:focus, .select2-container--default .select2-selection--single, a.wpml-ls-item-toggle, .wpml-ls-sub-menu a { background-color: #000000; border-color: #000000; color: #000000; } .custom-checkbox .custom-control-input:checked~.custom-control-label::before, .custom-radio .custom-control-input:checked~.custom-control-label::before, .nav-pills .nav-link.active, .dropdown-item.active, .dropdown-item:active, .woocommerce-store-notice, .comment-author .fn .badge-primary, .widget.woocommerce .count, .woocommerce-review-link, .woocommerce .onsale, .stars a:hover, .stars a.active { background: #0d9078; } .form-control:focus, .input-text:focus, input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[type=password]:focus, input[type=file]:focus, input[type=tel]:focus, textarea:focus, .page-link:focus, select:focus { border-color: #0d9078; box-shadow: 0 0 0 0.2rem rgba(13, 144, 120, 0.25); } .custom-control-input:focus~.custom-control-label::before { box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem  rgba(13, 144, 120, 0.25); } .btn.focus, .btn:focus { box-shadow: 0 0 0 0.2rem rgba(13, 144, 120, 0.25); } :focus { outline-color: rgba(13, 144, 120, 0.25); } code { border-left-color: #0d9078; } @media (min-width: 992px), (min-width: 1200px), (min-width: 1660px) and (max-width: 1198.98px) { .container { width: 100%; max-width: 1600px; } .header-block .container:first-child { width: 100%; }} @media (max-width: 991.98px) {} @media (min-width: 768px) { .sticky-header { width: 100%; left: 0; right: 0; margin: 0 auto; } .header-wrapper .main-menu { padding-top: 8px; padding-bottom: 8px; } #website-title { margin: 0; } a:hover span.link-effect, a:focus span.link-effect { -webkit-transform: translateY(-100%); -ms-transform: translateY(-100%); transform: translateY(-100%); } .posts.card-columns { -webkit-column-count: 2; column-count: 2; } .header-v1 .social-media-links li:last-child a { padding-right: 0; }} @media (max-width: 767.98px) { .navbar-nav li, .navbar-nav, .navbar-nav .dropdown-menu, .navbar-toggler { border-color: #795c5c; } .navbar-toggler, .navbar-nav li, .navbar-nav, .navbar-nav .dropdown-menu { background: #7d6060; } .posts.card-columns { -webkit-column-count: 1; column-count: 1; }} @media (min-width: 576px) {} @media (max-width: 575.98px) { .header-v1 .search-form .form-control { background: #7d6060; }} "
-            ],
-            [],
-            [
-                " #fancybox-content{border-color:#fff;} "
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
+            "\u00a0",
+            "http://www.firmcodes.com/wp-content/uploads/2014/04/8051.png"
+        ],
+        [],
+        [],
+        [
+            " "
         ],
         [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
+            " ",
+            "Introduction of 8051 \u00a0with short history"
         ],
         [
-            []
+            "The 8051 is a Harvard architecture, CISC instruction set, single chip microcontroller (\u00b5C) series which was developed by Intel in 1980 for use in embedded systems."
         ],
         [
-            []
+            "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Intel\u2019s original MCS-51 family was developed using NMOS technology, but later it is modified with CMOS technology and referred as 80C51which consume less power than their NMOS predecessors and gives high switching speed than NMOS technology. This made them more suitable for battery-powered devices.\u00a0"
+        ],
+        [],
+        [],
+        [
+            "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Nowadays there are many variants of 8051 core which is capable of processing 8/16/32-bit at a time, Earlier family is limited to 8-bit processing only. While Intel no longer manufactures 8051 cored controller or its derivatives, enhanced binary compatible derivatives made by numerous vendors remain popular today like Atmel\u2019s AT89C51 and its derivatives, NXP\u2019s P89v51 and its derivatives, etc. Some derivatives integrate a digital signal processor (DSP). In addition to these physical devices, several companies also offer MCS-51 derivatives as IP cores for use in FPGAs or ASICs designs."
         ],
         [
-            [],
-            [
-                "features of 8051 microcontroller"
-            ],
-            []
+            "Some of the\u00a08051\u2019s derivatives\u00a0are given as follows:"
         ],
         [
-            [],
-            [],
-            []
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            "DEVICE",
+            "ON-CHIP DATA MEMORY",
+            "(bytes)",
+            "ON-CHIP PROGRAM MEMORY",
+            "(bytes)",
+            "16-BIT TIMER/COUNTER",
+            "NO. OF VECTORED INTERUPTS",
+            "FULL DUPLEX I/O",
+            " ",
+            "8031",
+            "128",
+            "None",
+            "2",
+            "5",
+            "1",
+            " ",
+            "8032",
+            "256",
+            "none",
+            "2",
+            "6",
+            "1",
+            " ",
+            "8051",
+            "128",
+            "4k ROM",
+            "2",
+            "5",
+            "1",
+            " ",
+            "8052",
+            "256",
+            "8k ROM",
+            "3",
+            "6",
+            "1",
+            " ",
+            "8751",
+            "128",
+            "4k EPROM",
+            "2",
+            "5",
+            "1",
+            " ",
+            "8752",
+            "256",
+            "8k EPROM",
+            "3",
+            "6",
+            "1",
+            " ",
+            "AT89C51",
+            "128",
+            "4k Flash Memory",
+            "2",
+            "5",
+            "1",
+            " ",
+            "AT89C52",
+            "256",
+            "8k Flash memory",
+            "3",
+            "6",
+            "1",
+            " "
         ],
         [
-            []
+            " ",
+            "Microcontroller 8051 is basic among all the MCUs and excellence for beginners.",
+            "Here we use AT89C51, in which AT mean ATMEL, C mean CMOS technology. and rest numbers indicates\u00a0family identification.\u00a0",
+            "8051 is\u00a0an 8-bit microcontroller which means that most available operations are limited to 8 bits. "
         ],
         [
-            []
+            "Features of 8051 microcontroller"
         ],
         [
-            []
+            " ",
+            "4 KB on chip program memory.",
+            "128 bytes on chip data memory(RAM).",
+            "128 user defined software flags.",
+            "8-bit data bus",
+            "16-bit address bus",
+            "32 general purpose registers each of 8 bits",
+            "16 bit timers (usually 2, but may have more, or less).",
+            "3 internal and 2 external interrupts.",
+            "Bit as well as byte addressable RAM area of 16 bytes.",
+            "Four 8-bit ports, (short models have two 8-bit ports).",
+            "16-bit program counter and data pointer.",
+            "1 Microsecond instruction cycle with 12 MHz Crystal."
+        ],
+        [],
+        [
+            "8051 models may also have a number of special, model-specific features, such as UARTs, ADC, OpAmps, etc\u2026"
+        ],
+        [],
+        [
+            " ",
+            "Description of AT89C51"
         ],
         [
-            []
+            " ",
+            "The AT89C51 is a low-power, high-performance CMOS 8-bit microcomputer with 4 Kbytes of Flash Programmable and Erasable Read Only Memory (EEPROM). The device is manufactured using Atmel\u2019s high density nonvolatile memory technology and is compatible with the industry standard MCS-51 instruction set and pin-out."
         ],
         [
-            []
+            " ",
+            "The on-chip Flash allows the program memory to be reprogrammed in-system or by a conventional nonvolatile memory programmer. By combining a versatile 8-bit CPU with Flash on a monolithic chip, the Atmel AT89C51 is a powerful microcomputer which provides a highly flexible and cost effective solution to many embedded control applications."
         ],
         [
-            []
+            " ",
+            "The AT89C51 provides the following standard features: 4Kbytes of Flash, 128 bytes of RAM, 32 I/O lines, two 16-bit timer/counters, a five vector two-level interrupt architecture, a full duplex serial port, on-chip oscillator and clock circuitry. In addition, the AT89C51 is designed with static memory."
         ],
         [
-            []
+            " ",
+            "Logic for operation down to zero frequency and supports two software selectable power saving modes. "
+        ],
+        [],
+        [
+            " ",
+            "Pinout of AT89C51"
         ],
         [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
+            "\u00a0",
+            "http://www.firmcodes.com/wp-content/uploads/2014/04/Untitled1.jpg"
         ]
     ],
     [
         [
-            [
-                "HOME"
-            ],
-            [
-                "MICROCONTROLLERS",
-                "  ",
-                "8051",
-                "AVR",
-                "PIC",
-                "ARDUINO",
-                "ARM7 Classic",
-                "ARM Cortex-M4"
-            ]
-        ],
-        [
-            [],
-            []
-        ],
-        [
-            []
-        ],
-        [
-            [],
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
+            "Pins 1-8:"
         ]
     ],
     [
         [
-            [
-                "DEVICE"
-            ],
-            [
-                "ON-CHIP DATA MEMORY",
-                "(bytes)"
-            ],
-            [
-                "ON-CHIP PROGRAM MEMORY",
-                "(bytes)"
-            ]
-        ],
-        [
-            [
-                "DEVICE"
-            ],
-            [
-                "ON-CHIP DATA MEMORY",
-                "(bytes)"
-            ],
-            [
-                "ON-CHIP PROGRAM MEMORY",
-                "(bytes)"
-            ]
-        ],
-        [
-            [
-                "16-BIT TIMER/COUNTER"
-            ]
-        ],
-        [
-            [
-                "NO. OF VECTORED INTERUPTS"
-            ]
-        ],
-        [
-            [
-                "FULL DUPLEX I/O"
-            ]
+            "Pin 9"
         ]
     ],
     [
         [
-            [
-                " ",
-                "DEVICE",
-                "ON-CHIP DATA MEMORY",
-                "(bytes)",
-                "ON-CHIP PROGRAM MEMORY",
-                "(bytes)",
-                "16-BIT TIMER/COUNTER",
-                "NO. OF VECTORED INTERUPTS",
-                "FULL DUPLEX I/O"
-            ]
-        ],
-        [
-            [
-                " ",
-                "DEVICE",
-                "ON-CHIP DATA MEMORY",
-                "(bytes)",
-                "ON-CHIP PROGRAM MEMORY",
-                "(bytes)",
-                "16-BIT TIMER/COUNTER",
-                "NO. OF VECTORED INTERUPTS",
-                "FULL DUPLEX I/O"
-            ]
-        ],
-        [
-            [
-                " ",
-                "8031",
-                "128",
-                "None",
-                "2",
-                "5",
-                "1"
-            ]
-        ],
-        [
-            [
-                " ",
-                "8032",
-                "256",
-                "none",
-                "2",
-                "6",
-                "1"
-            ]
-        ],
-        [
-            [
-                " ",
-                "8051",
-                "128",
-                "4k ROM",
-                "2",
-                "5",
-                "1"
-            ]
-        ],
-        [
-            [
-                " ",
-                "8052",
-                "256",
-                "8k ROM",
-                "3",
-                "6",
-                "1"
-            ]
-        ],
-        [
-            [
-                " ",
-                "8751",
-                "128",
-                "4k EPROM",
-                "2",
-                "5",
-                "1"
-            ]
-        ],
-        [
-            [
-                " ",
-                "8752",
-                "256",
-                "8k EPROM",
-                "3",
-                "6",
-                "1"
-            ]
-        ],
-        [
-            [
-                " ",
-                "AT89C51",
-                "128",
-                "4k Flash Memory",
-                "2",
-                "5",
-                "1"
-            ]
-        ],
-        [
-            [
-                " ",
-                "AT89C52",
-                "256",
-                "8k Flash memory",
-                "3",
-                "6",
-                "1"
-            ]
+            "Pins10-17:"
         ]
     ],
-    [],
-    [],
-    [],
     [
         [
-            [
-                "Skip to main content"
-            ],
-            [
-                "      ",
-                "                ",
-                "              ",
-                "        ",
-                "          ",
-                "                         ",
-                " ",
-                "FIRMWARE DEVELOPER",
-                "Embedded Systems",
-                " .row .align-items-center ",
-                " .col .order-2 ",
-                " .row .align-items-center ",
-                " .header .container ",
-                " .header-pattern ",
-                "          ",
-                "              ",
-                "        ",
-                "                                  ",
-                "                                      ",
-                " ",
-                "HOME",
-                "MICROCONTROLLERS",
-                "  ",
-                "8051",
-                "AVR",
-                "PIC",
-                "ARDUINO",
-                "ARM7 Classic",
-                "ARM Cortex-M4",
-                "C/C++ CODES",
-                "LINUX",
-                "PROJECTS",
-                "  ",
-                "ACADEMIC LEVEL PROJECTS",
-                "INDUSTRIAL PROJECTS",
-                "LINUX PROJECTS",
-                "ARTICLES",
-                "CONTACT US",
-                " .row .align-items-center ",
-                " .container ",
-                " .menu-header ",
-                " .header-v1 ",
-                "  ",
-                "     ",
-                "INTRODUCTION Of 8051",
-                "      ",
-                "\u00a0",
-                "____________________________________________________________________________________________________",
-                " Quick Adsense WordPress Plugin: http://quickadsense.com/ ",
-                " ",
-                " ",
-                "Introduction of 8051 \u00a0with short history",
-                "The 8051 is a Harvard architecture, CISC instruction set, single chip microcontroller (\u00b5C) series which was developed by Intel in 1980 for use in embedded systems.",
-                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Intel\u2019s original MCS-51 family was developed using NMOS technology, but later it is modified with CMOS technology and referred as 80C51which consume less power than their NMOS predecessors and gives high switching speed than NMOS technology. This made them more suitable for battery-powered devices.\u00a0",
-                " Quick Adsense WordPress Plugin: http://quickadsense.com/ ",
-                " ",
-                " content 2 middle ",
-                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Nowadays there are many variants of 8051 core which is capable of processing 8/16/32-bit at a time, Earlier family is limited to 8-bit processing only. While Intel no longer manufactures 8051 cored controller or its derivatives, enhanced binary compatible derivatives made by numerous vendors remain popular today like Atmel\u2019s AT89C51 and its derivatives, NXP\u2019s P89v51 and its derivatives, etc. Some derivatives integrate a digital signal processor (DSP). In addition to these physical devices, several companies also offer MCS-51 derivatives as IP cores for use in FPGAs or ASICs designs.",
-                "Some of the\u00a08051\u2019s derivatives\u00a0are given as follows:",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                "DEVICE",
-                "ON-CHIP DATA MEMORY",
-                "(bytes)",
-                "ON-CHIP PROGRAM MEMORY",
-                "(bytes)",
-                "16-BIT TIMER/COUNTER",
-                "NO. OF VECTORED INTERUPTS",
-                "FULL DUPLEX I/O",
-                " ",
-                "8031",
-                "128",
-                "None",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8032",
-                "256",
-                "none",
-                "2",
-                "6",
-                "1",
-                " ",
-                "8051",
-                "128",
-                "4k ROM",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8052",
-                "256",
-                "8k ROM",
-                "3",
-                "6",
-                "1",
-                " ",
-                "8751",
-                "128",
-                "4k EPROM",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8752",
-                "256",
-                "8k EPROM",
-                "3",
-                "6",
-                "1",
-                " ",
-                "AT89C51",
-                "128",
-                "4k Flash Memory",
-                "2",
-                "5",
-                "1",
-                " ",
-                "AT89C52",
-                "256",
-                "8k Flash memory",
-                "3",
-                "6",
-                "1",
-                " ",
-                "\u00a0",
-                " ",
-                "Microcontroller 8051 is basic among all the MCUs and excellence for beginners.",
-                "Here we use AT89C51, in which AT mean ATMEL, C mean CMOS technology. and rest numbers indicates\u00a0family identification.\u00a0",
-                "8051 is\u00a0an 8-bit microcontroller which means that most available operations are limited to 8 bits. ",
-                "Features of 8051 microcontroller",
-                " ",
-                "4 KB on chip program memory.",
-                "128 bytes on chip data memory(RAM).",
-                "128 user defined software flags.",
-                "8-bit data bus",
-                "16-bit address bus",
-                "32 general purpose registers each of 8 bits",
-                "16 bit timers (usually 2, but may have more, or less).",
-                "3 internal and 2 external interrupts.",
-                "Bit as well as byte addressable RAM area of 16 bytes.",
-                "Four 8-bit ports, (short models have two 8-bit ports).",
-                "16-bit program counter and data pointer.",
-                "1 Microsecond instruction cycle with 12 MHz Crystal.",
-                "\u00a0",
-                "8051 models may also have a number of special, model-specific features, such as UARTs, ADC, OpAmps, etc\u2026",
-                "\u00a0",
-                " ",
-                "Description of AT89C51",
-                " ",
-                "The AT89C51 is a low-power, high-performance CMOS 8-bit microcomputer with 4 Kbytes of Flash Programmable and Erasable Read Only Memory (EEPROM). The device is manufactured using Atmel\u2019s high density nonvolatile memory technology and is compatible with the industry standard MCS-51 instruction set and pin-out.",
-                " ",
-                "The on-chip Flash allows the program memory to be reprogrammed in-system or by a conventional nonvolatile memory programmer. By combining a versatile 8-bit CPU with Flash on a monolithic chip, the Atmel AT89C51 is a powerful microcomputer which provides a highly flexible and cost effective solution to many embedded control applications.",
-                " ",
-                "The AT89C51 provides the following standard features: 4Kbytes of Flash, 128 bytes of RAM, 32 I/O lines, two 16-bit timer/counters, a five vector two-level interrupt architecture, a full duplex serial port, on-chip oscillator and clock circuitry. In addition, the AT89C51 is designed with static memory.",
-                " ",
-                "Logic for operation down to zero frequency and supports two software selectable power saving modes. ",
-                "\u00a0",
-                " ",
-                "Pinout of AT89C51",
-                "\u00a0",
-                "Pins 1-8:",
-                "Pin 9",
-                "Pins10-17:",
-                "Pin 10:",
-                "Pin 11:",
-                "Pin 12:",
-                "Pin 13:",
-                "Pin 14:",
-                "Pin 15:",
-                "Pin 16:",
-                "Pin 17:",
-                "Pin 18, 19:",
-                "Pin 20:",
-                "Pin 21-28:",
-                "Pin 29:",
-                "Pin 30:",
-                "Pin 31:",
-                "Pin 32-39:",
-                "Pin 40:",
-                "\u00a0",
-                " Quick Adsense WordPress Plugin: http://quickadsense.com/ ",
-                " ",
-                " content 3 end of post ",
-                " .post-content ",
-                " #post ",
-                " #primary ",
-                "     ",
-                "   ",
-                "   ",
-                " Rigth Sidebar Widget ",
-                " #secondary ",
-                " .row ",
-                " .container ",
-                " .content ",
-                " .container ",
-                " .footer ",
-                "\u00a0"
-            ],
-            [
-                " #wrapper "
-            ],
-            [
-                " Powered by WPtouch: 4.3.28 "
-            ]
-        ],
-        [
-            [],
-            [
-                "  ",
-                "     ",
-                "INTRODUCTION Of 8051",
-                "      ",
-                "\u00a0",
-                "http://www.firmcodes.com/wp-content/uploads/2014/04/8051.png",
-                " ",
-                " ",
-                "Introduction of 8051 \u00a0with short history",
-                "The 8051 is a Harvard architecture, CISC instruction set, single chip microcontroller (\u00b5C) series which was developed by Intel in 1980 for use in embedded systems.",
-                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Intel\u2019s original MCS-51 family was developed using NMOS technology, but later it is modified with CMOS technology and referred as 80C51which consume less power than their NMOS predecessors and gives high switching speed than NMOS technology. This made them more suitable for battery-powered devices.\u00a0",
-                "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Nowadays there are many variants of 8051 core which is capable of processing 8/16/32-bit at a time, Earlier family is limited to 8-bit processing only. While Intel no longer manufactures 8051 cored controller or its derivatives, enhanced binary compatible derivatives made by numerous vendors remain popular today like Atmel\u2019s AT89C51 and its derivatives, NXP\u2019s P89v51 and its derivatives, etc. Some derivatives integrate a digital signal processor (DSP). In addition to these physical devices, several companies also offer MCS-51 derivatives as IP cores for use in FPGAs or ASICs designs.",
-                "Some of the\u00a08051\u2019s derivatives\u00a0are given as follows:",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                " ",
-                "DEVICE",
-                "ON-CHIP DATA MEMORY",
-                "(bytes)",
-                "ON-CHIP PROGRAM MEMORY",
-                "(bytes)",
-                "16-BIT TIMER/COUNTER",
-                "NO. OF VECTORED INTERUPTS",
-                "FULL DUPLEX I/O",
-                " ",
-                "8031",
-                "128",
-                "None",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8032",
-                "256",
-                "none",
-                "2",
-                "6",
-                "1",
-                " ",
-                "8051",
-                "128",
-                "4k ROM",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8052",
-                "256",
-                "8k ROM",
-                "3",
-                "6",
-                "1",
-                " ",
-                "8751",
-                "128",
-                "4k EPROM",
-                "2",
-                "5",
-                "1",
-                " ",
-                "8752",
-                "256",
-                "8k EPROM",
-                "3",
-                "6",
-                "1",
-                " ",
-                "AT89C51",
-                "128",
-                "4k Flash Memory",
-                "2",
-                "5",
-                "1",
-                " ",
-                "AT89C52",
-                "256",
-                "8k Flash memory",
-                "3",
-                "6",
-                "1",
-                " ",
-                " ",
-                "Microcontroller 8051 is basic among all the MCUs and excellence for beginners.",
-                "Here we use AT89C51, in which AT mean ATMEL, C mean CMOS technology. and rest numbers indicates\u00a0family identification.\u00a0",
-                "8051 is\u00a0an 8-bit microcontroller which means that most available operations are limited to 8 bits. ",
-                "Features of 8051 microcontroller",
-                " ",
-                "4 KB on chip program memory.",
-                "128 bytes on chip data memory(RAM).",
-                "128 user defined software flags.",
-                "8-bit data bus",
-                "16-bit address bus",
-                "32 general purpose registers each of 8 bits",
-                "16 bit timers (usually 2, but may have more, or less).",
-                "3 internal and 2 external interrupts.",
-                "Bit as well as byte addressable RAM area of 16 bytes.",
-                "Four 8-bit ports, (short models have two 8-bit ports).",
-                "16-bit program counter and data pointer.",
-                "1 Microsecond instruction cycle with 12 MHz Crystal.",
-                "8051 models may also have a number of special, model-specific features, such as UARTs, ADC, OpAmps, etc\u2026",
-                " ",
-                "Description of AT89C51",
-                " ",
-                "The AT89C51 is a low-power, high-performance CMOS 8-bit microcomputer with 4 Kbytes of Flash Programmable and Erasable Read Only Memory (EEPROM). The device is manufactured using Atmel\u2019s high density nonvolatile memory technology and is compatible with the industry standard MCS-51 instruction set and pin-out.",
-                " ",
-                "The on-chip Flash allows the program memory to be reprogrammed in-system or by a conventional nonvolatile memory programmer. By combining a versatile 8-bit CPU with Flash on a monolithic chip, the Atmel AT89C51 is a powerful microcomputer which provides a highly flexible and cost effective solution to many embedded control applications.",
-                " ",
-                "The AT89C51 provides the following standard features: 4Kbytes of Flash, 128 bytes of RAM, 32 I/O lines, two 16-bit timer/counters, a five vector two-level interrupt architecture, a full duplex serial port, on-chip oscillator and clock circuitry. In addition, the AT89C51 is designed with static memory.",
-                " ",
-                "Logic for operation down to zero frequency and supports two software selectable power saving modes. ",
-                " ",
-                "Pinout of AT89C51",
-                "\u00a0",
-                "http://www.firmcodes.com/wp-content/uploads/2014/04/Untitled1.jpg",
-                "Pins 1-8:",
-                "Pin 9",
-                "Pins10-17:",
-                "Pin 10:",
-                "Pin 11:",
-                "Pin 12:",
-                "Pin 13:",
-                "Pin 14:",
-                "Pin 15:",
-                "Pin 16:",
-                "Pin 17:",
-                "Pin 18, 19:",
-                "Pin 20:",
-                "Pin 21-28:",
-                "Pin 29:",
-                "Pin 30:",
-                "Pin 31:",
-                "Pin 32-39:",
-                "Pin 40:",
-                "\u00a0"
-            ],
-            [],
-            []
-        ],
-        [
-            [],
-            [],
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            []
-        ],
-        [
-            [],
-            []
-        ],
-        [
-            [],
-            [],
-            []
+            "Pin 10:"
         ]
     ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [
+        [
+            "Pin 11:"
+        ]
+    ],
+    [
+        [
+            "Pin 12:"
+        ]
+    ],
+    [
+        [
+            "Pin 13:"
+        ]
+    ],
+    [
+        [
+            "Pin 14:"
+        ]
+    ],
+    [
+        [
+            "Pin 15:"
+        ]
+    ],
+    [
+        [
+            "Pin 16:"
+        ]
+    ],
+    [
+        [
+            "Pin 17:"
+        ]
+    ],
+    [
+        [
+            "Pin 18, 19:"
+        ]
+    ],
+    [
+        [
+            "Pin 20:"
+        ]
+    ],
+    [
+        [
+            "Pin 21-28:"
+        ]
+    ],
+    [
+        [
+            "Pin 29:"
+        ]
+    ],
+    [
+        [
+            "Pin 30:"
+        ]
+    ],
+    [
+        [
+            "Pin 31:"
+        ]
+    ],
+    [
+        [
+            "Pin 32-39:"
+        ]
+    ],
+    [
+        [
+            "Pin 40:"
+        ]
+    ],
+    [
+        [
+            "\u00a0"
+        ],
+        [],
+        [],
+        [],
+        []
+    ]
 ]
