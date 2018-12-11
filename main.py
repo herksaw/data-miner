@@ -17,7 +17,7 @@ url_list = [
     "https://www.jameco.com/shop/keyword=Buy-Transistors",
     "https://www.allelectronics.com/category/793/transistors/1.html",
     "https://www.rohm.com/new-products-listing/?nodecode=2020&period=180",
-    "https://www.futureelectronics.com/c/semiconductors/discretes--transistors--general-purpose-transistors/products"
+    "https://www.futureelectronics.com/c/semiconductors/discretes--transistors--general-purpose-transistors/products",
 ]
 
 refer_url_list = [
@@ -32,12 +32,11 @@ refer_url_list = [
     "https://www.jameco.com/c/ICs-Semiconductors.html",
     "https://www.allelectronics.com/category/193/connectors-ac-power/1.html",
     "https://www.rohm.com/new-products-listing/?nodecode=2020&period=180",
-    "https://www.futureelectronics.com/c/semiconductors/analog--power-switches/products"
-
+    "https://www.futureelectronics.com/c/semiconductors/analog--power-switches/products",
 ]
 
 if __name__ == "__main__":
-    index = 11
+    index = 0
 
     # tree = mdr.parse_page(url_list[index])
 
@@ -219,6 +218,7 @@ if __name__ == "__main__":
     curr_url = url_list[index]
 
     file_url = re.sub('[\\/:*?"<>|]', "", curr_url)
+    # file_url = re.sub('[^\w_.)( -]', '', curr_url)
 
     with open("output/" + file_url + ".json", "w") as json_file:
         json.dump(highest_count_table, json_file)        
