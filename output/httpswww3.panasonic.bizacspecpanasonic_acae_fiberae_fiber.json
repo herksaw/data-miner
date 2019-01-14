@@ -1,0 +1,212 @@
+[
+    [
+        [
+            "   Application ",
+            "Setting in",
+            "Chemical-resistant(",
+            "5",
+            "General-purpose(",
+            "100",
+            "Glass substrate detection(",
+            "2",
+            "Glass substrate detection Alignment(",
+            "3",
+            "Glass substrate detection Mapping(",
+            "1",
+            "Glass substrate detection Seating confirmation(",
+            "3",
+            "Heat-resistant(",
+            "20",
+            "Heat-resistant Wafer mapping(",
+            "1",
+            "Liquid leak detection / Liquid sensing(",
+            "3",
+            "Liquid level sensing(",
+            "5",
+            "Oil-resistant(",
+            "3",
+            "Transparent tubes sensing(",
+            "4",
+            "Vacuum-resistant(",
+            "3",
+            "Wafer mapping(",
+            "1",
+            "Clear"
+        ]
+    ],
+    [
+        [
+            "   Application ",
+            "Chemical-resistant(",
+            "General-purpose(",
+            "100",
+            "Glass substrate detection(",
+            "Glass substrate detection Alignment(",
+            "Glass substrate detection Mapping(",
+            "Glass substrate detection Seating confirmation(",
+            "Heat-resistant(",
+            "20",
+            "Heat-resistant Wafer mapping(",
+            "Liquid leak detection / Liquid sensing(",
+            "Liquid level sensing(",
+            "Oil-resistant(",
+            "Transparent tubes sensing(",
+            "Vacuum-resistant(",
+            "Wafer mapping("
+        ]
+    ],
+    [
+        [
+            "   Sensing mode ",
+            "Convergent Reflective type(",
+            "Reflective type(",
+            "64",
+            "Retroreflective type(",
+            "Thru-beam type(",
+            "70"
+        ]
+    ],
+    [
+        [
+            "   Fiber type ",
+            "Cylindrical type(",
+            "20",
+            "Flat type(",
+            "Particular use(",
+            "55",
+            "Sleeve type(",
+            "20",
+            "Square head type(",
+            "Threaded type("
+        ]
+    ],
+    [
+        [
+            "   Fiber head dia. ",
+            "M3(",
+            "19",
+            "M4(",
+            "30",
+            "M6(",
+            "M14(",
+            "dia. 0-3mm(",
+            "dia. 3.1-6mm(",
+            "Others("
+        ]
+    ],
+    [
+        [
+            "   With sleeve ",
+            "No(",
+            "134",
+            "Yes(",
+            "20"
+        ]
+    ],
+    [
+        [
+            "   Sleeve length ",
+            "0-10mm(",
+            "11-20mm(",
+            "21-40mm(",
+            "41-60mm(",
+            "61-100mm("
+        ]
+    ],
+    [
+        [
+            "   Beam direction ",
+            "Fiber bending type(",
+            "Front sensing(",
+            "Side-sensing(",
+            "Side-view(",
+            "Top-sensing(",
+            "Top-view(",
+            "115",
+            "Wide-area("
+        ]
+    ],
+    [
+        [
+            "   Allowable bending radius ",
+            "R1mm(",
+            "34",
+            "R2mm(",
+            "44",
+            "R4mm(",
+            "41",
+            "R10mm(",
+            "R18mm(",
+            "R20mm(",
+            "R25mm(",
+            "R30mm(",
+            "R40mm("
+        ]
+    ],
+    [
+        [
+            "   Free-cut ",
+            "Available(",
+            "119",
+            "Not available(",
+            "35"
+        ]
+    ],
+    [
+        [
+            "   Mounting lens ",
+            "Available(",
+            "Not available(",
+            "129"
+        ]
+    ],
+    [
+        [
+            "   Ambient temperature MAX ",
+            "51-60 degrees(",
+            "53",
+            "61-70 degrees(",
+            "71-80 degrees(",
+            "81-100 degrees(",
+            "101-200 degrees(",
+            "201-300 degrees(",
+            "301-400 degrees("
+        ]
+    ],
+    [
+        [
+            "   Ambient temperature MIN ",
+            "0 degrees(",
+            "-20 degrees(",
+            "-25 degrees(",
+            "-30 degrees(",
+            "-40 degrees(",
+            "75",
+            "-55 degrees(",
+            "46",
+            "-60 degrees(",
+            "18"
+        ]
+    ],
+    [
+        [
+            "   The longest Sensing range ",
+            "0-50mm(",
+            "51-100mm(",
+            "101-300mm(",
+            "11",
+            "301-500mm(",
+            "501-600mm(",
+            "601-700mm(",
+            "701-1000mm(",
+            "20",
+            "1001-1500mm(",
+            "1501-2000mm(",
+            "2001-3500mm(",
+            "3501-10000mm(",
+            "29",
+            "10001-20000mm("
+        ],
+        []
+    ]
+]

@@ -18,25 +18,55 @@ url_list = [
     "https://www.allelectronics.com/category/793/transistors/1.html",
     "https://www.rohm.com/new-products-listing/?nodecode=2020&period=180",
     "https://www.futureelectronics.com/c/semiconductors/discretes--transistors--general-purpose-transistors/products",
+    "https://my.mouser.com/Semiconductors/Integrated-Circuits-ICs/_/N-6j73k/",
+    "http://www.yageo.com/NewPortal/yageo?service=chipResistors&layer2=Thick%20Film%20Precision&lang=en",
+    "https://www.murata.com/en-us/products/resistor/highvoltage/mhr",
+    "https://www.avnet.com/shop/apac/c/capacitors/film-paper-capacitors/?pageNumber=1&pageSize=20",
+    "https://www3.panasonic.biz/ac/spec/panasonic_ac/ae_fiber/ae_fiber/",
+    "https://ds.yuden.co.jp/TYCOMPAS/or/specificationSearcher?SR2=MP&cid=L&u=M",
+    "https://product.tdk.com/info/en/products/inductor/catalog.html",
+    "http://www.samsungsem.com/global/support/product-search/index.jsp",
+    "http://www.pdc.com.tw/product/diodege-eng.html",
+    "http://www.passivecomponent.com/se-chip.asp",
+    "http://www.kamaya.co.jp/detail.php?id=97",
+    "http://www.koaspeer.com/products/thermal-protection/surface-mount-thermal-sensors/nt73/",
+    "https://www.walmart.com/search/?query=laptop",
+    "https://www.newegg.com/Laptops-Notebooks/Category/ID-223?Tpk=laptop",
+    "https://www.etsy.com/c/clothing-and-shoes?ref=catnav-10923",
 ]
 
 refer_url_list = [
-    "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/CMSF52334E11D475306C125707B00358DA1?OpenDocument",
-    "https://www.digikey.com/products/en/integrated-circuits-ics/interface-analog-switches-special-purpose/780",
-    "https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/lpc-cortex-m-mcus/lpc54000-series-cortex-m4-mcus:MC_1414576688124",
-    "https://global.epson.com/products_and_drivers/semicon/products/micro_controller/8bit/",
-    "http://www.firmcodes.com/microcontrollers/8051-3/led-interfacing-with-8051/",
-    "https://www.engineersgarage.com/article/choosing-motor-robots",
-    "https://www.robotshop.com/en/cables-wires-connectors-en.html",
-    "https://www.electroncomponents.com/Mini-Components",
-    "https://www.jameco.com/c/ICs-Semiconductors.html",
-    "https://www.allelectronics.com/category/193/connectors-ac-power/1.html",
-    "https://www.rohm.com/new-products-listing/?nodecode=2020&period=180",
-    "https://www.futureelectronics.com/c/semiconductors/analog--power-switches/products",
+    "https://www.schukat.com/schukat/schukat_cms_en.nsf/index/CMSF52334E11D475306C125707B00358DA1?OpenDocument", # 0
+    "https://www.digikey.com/products/en/integrated-circuits-ics/interface-analog-switches-special-purpose/780", # 1
+    "https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/lpc-cortex-m-mcus/lpc54000-series-cortex-m4-mcus:MC_1414576688124", # 2
+    "https://global.epson.com/products_and_drivers/semicon/products/micro_controller/8bit/", # 3
+    "http://www.firmcodes.com/microcontrollers/8051-3/led-interfacing-with-8051/", # 4
+    "https://www.engineersgarage.com/article/choosing-motor-robots", # 5
+    "https://www.robotshop.com/en/cables-wires-connectors-en.html", # 6
+    "https://www.electroncomponents.com/Mini-Components", # 7
+    "https://www.jameco.com/c/ICs-Semiconductors.html", # 8
+    "https://www.allelectronics.com/category/193/connectors-ac-power/1.html", # 9
+    "https://www.rohm.com/new-products-listing/?nodecode=2020&period=180", # 10
+    "https://www.futureelectronics.com/c/semiconductors/analog--power-switches/products", # 11
+    "https://my.mouser.com/Semiconductors/Integrated-Circuits-ICs/Amplifier-ICs/_/N-6j73l/", # 12
+    "http://www.yageo.com/NewPortal/yageo?service=mlcc&layer2=High%20Voltage&lang=en", # 13
+    "https://www.murata.com/en-us/products/sensor/infrared/ira", # 14
+    "https://www.avnet.com/shop/apac/c/discretes/diodes/rectifier-diodes/", # 15
+    "https://www3.panasonic.biz/ac/spec/panasonic_ac/ae_swi_lt/ae_swi_lt/", # 16
+    "https://ds.yuden.co.jp/TYCOMPAS/or/specificationSearcher?SR2=MP&cid=C&u=M", # 17
+    "https://product.tdk.com/info/en/products/capacitor/catalog.html", # 18
+    "http://www.samsungsem.com/global/product/passive-component/chip-resistor/general-resistor/index.jsp", # 19
+    "http://www.pdc.com.tw/product/chipge-eng.html", # 20
+    "http://www.passivecomponent.com/se-inductor.asp", # 21
+    "http://www.kamaya.co.jp/detail.php?id=82", # 22
+    "http://www.koaspeer.com/products/resistors/surface-mount-resistors/rk73b/", # 23
+    "https://www.walmart.com/search/?query=phone", # 24
+    "https://www.newegg.com/Product/ProductList.aspx?Submit=ENE&DEPA=0&Order=BESTMATCH&Description=phone&N=-1&isNodeId=1", # 25
+    "https://www.etsy.com/c/toys-and-entertainment?ref=catnav-11049", # 26
 ]
 
 if __name__ == "__main__":
-    index = 0
+    index = 27
 
     # tree = mdr.parse_page(url_list[index])
 
